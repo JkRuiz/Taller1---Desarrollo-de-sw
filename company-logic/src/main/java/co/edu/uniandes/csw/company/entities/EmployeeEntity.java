@@ -33,6 +33,17 @@ public class EmployeeEntity extends BaseEntity implements Serializable {
     private Integer gender; // 1 Femenino. 2 Masculino
     private String image; // url de la imagen del empleado
     private String name; // nombre del empleado
+    private double prima;
+    
+    public double getPrima()
+    {
+        return prima;
+    }
+    
+    public void setPrima(double prima)
+    {
+        this.prima = prima;
+    }
 
     /**
      * Obtiene el atributo salary.
